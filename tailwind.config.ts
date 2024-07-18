@@ -14,7 +14,7 @@ const config: Config = {
      },
      backgroundImage:{
        'hero-desktop' : "linear-gradient(180deg, rgba(0,0,0,0.4) 100%, rgba(0,0,0,0.5) 100%), url('/hero.webp')",
-       'image-section': "url('/image-section.jpg')"
+       'image-section': "url('/image-section.webp')"
      }
     },
   },
