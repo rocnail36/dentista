@@ -2,7 +2,7 @@ import Motion from '@/components/framer/Motion'
 import { PrimaryButton } from '@/components/PrimaryButton'
 import React from 'react'
 
-export const Hero = () => {
+ const Hero = () => {
   return (
     <div className="bg-hero-desktop relative z-[10] bg-center bg-cover h-[80vh] max-h-[700px] flex items-center px-12">
         
@@ -53,3 +53,5 @@ export const Hero = () => {
    </div>
   )
 }
+
+export default Hero
