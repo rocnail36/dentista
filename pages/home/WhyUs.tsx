@@ -6,7 +6,7 @@ import React from 'react'
 const WhyUs = () => {
   return (
     <div className='bg-gray-100 justify-between py-24 px-14 relative z-[1]'>
-        <Motion className='flex items-center' initial={{y:200}} whileInView={{y:0}} transition={{duration:.5}} viewPort={{margin:"100px"}}>
+        <Motion className='flex items-center' initial={{y:200}} whileInView={{y:0}} transition={{duration:.5}} viewport={{margin:"100px"}}>
         <div className='w-[25%]'>
             <h2 className='text-gray-900 font-semibold text-xl'>¿Porque elegirnos?</h2>
             <p className='font-bold text-6xl text-gray-900 mb-8'>Odontología de última generación</p>

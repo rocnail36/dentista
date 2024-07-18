@@ -9,10 +9,10 @@ const AboutUs = () => {
 
             <div className='grid grid-rows-3 grid-cols-2 max-w-[550px] w-[50%] justify-items-start relative rounded-t-xl'>
 
-                <Motion className='mt-[150px]' transition={{duration:.3}} initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}}   viewPort={{once:true}}>
+                <Motion className='mt-[150px]' transition={{duration:.3}} initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}}   viewport={{once:true}}>
                <img className='rounded-t-xl rounded-bl-xl' src="/about-1.jpg" alt="foto de dentista" width={240} height={420} /> 
                </Motion>
-               <Motion transition={{duration:.3}} initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}}  viewPort={{ once: true }}>
+               <Motion transition={{duration:.3}} initial={{y:100, opacity:0}} whileInView={{y:0, opacity:1}}  viewport={{ once: true }}>
                <img className=' rounded-t-xl rounded-bl-xl ' src="/about-2.jpg" alt="foto de dentista" width={240} height={420} />
                </Motion>
               <Motion transition={{duration:2,repeat:Infinity,ease:'linear',repeatType:'mirror'}} className='absolute right-[-50px] bottom-[40%]'  initial={{y:0}} animate={{y:-30}}>
@@ -25,7 +25,7 @@ const AboutUs = () => {
 
 
 
-            <Motion className='w-[45%]' transition={{duration:.5}} initial={{x:200}} whileInView={{x:0}} viewPort={{once:true}}>
+            <Motion className='w-[45%]' transition={{duration:.5}} initial={{x:200}} whileInView={{x:0}} viewport={{once:true}}>
             
                 <h2 className='text-gray-900 font-semibold text-xl'>¿Quienes somos?</h2>
                 <p className='font-bold text-6xl text-gray-900 mb-8'>Impulsando sonrisas saludables y confianza</p>
