@@ -13,7 +13,7 @@ const config: Config = {
       anton:["var(--font-anton)"]
      },
      backgroundImage:{
-       'image-section': "url('/Image-section.webp')",
+       'image-section': "url('/image-section.webp')",
        'hero-desktop' : "linear-gradient(180deg, rgba(0,0,0,0.4) 100%, rgba(0,0,0,0.5) 100%), url('/hero.webp')",
     
      }
