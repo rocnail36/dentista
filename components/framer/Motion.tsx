@@ -6,8 +6,8 @@ import {  motion,  VariantLabels,MakeCustomValueType,TargetProperties, Transitio
 type Props = {
     children: React.ReactNode,
     transition: Transition$1 | undefined
-    initial: boolean | MakeCustomValueType<TargetProperties> | VariantLabels | undefined
-    animate?: boolean | MakeCustomValueType<TargetProperties> | VariantLabels | undefined
+    initial: boolean |  VariantLabels | undefined
+    animate?: boolean |  VariantLabels | undefined
     className?: string
     whileInView?: VariantLabels | TargetAndTransition,
     viewPort?: ViewportOptions | undefined
