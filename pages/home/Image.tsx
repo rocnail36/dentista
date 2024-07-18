@@ -12,7 +12,7 @@ const Image = () => {
          </p>
         </div>
         </div>
-        <Motion viewPort={{once:true}}  initial={{x:100}} whileInView={{x:0}} transition={{duration:.5}} className='bg-sky-400  text-white absolute py-4 px-16 text-center top-4 right-16  rounded-t-3xl rounded-bl-3xl'>
+        <Motion viewport={{once:true}}  initial={{x:100}} whileInView={{x:0}} transition={{duration:.5}} className='bg-sky-400  text-white absolute py-4 px-16 text-center top-4 right-16  rounded-t-3xl rounded-bl-3xl'>
              <div className='text-6xl font-bold'>
               + <AnimatedCounter from={0} to={96}/>
              </div>

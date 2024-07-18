@@ -13,12 +13,12 @@ const Client = () => {
   return (
     <div className='bg-gray-50 h-[250px] mb-40 justify-center  flex items-center border-solid border-[1px]'>
 
-        <Motion className='w-[30%]  flex gap-8 items-center' initial={{x:-300}} whileInView={{x:0}} transition={{duration:.7}} viewPort={{once:true}}>
+        <Motion className='w-[30%]  flex gap-8 items-center' initial={{x:-300}} whileInView={{x:0}} transition={{duration:.7}} viewport={{once:true}}>
           <Image  src={"/message.svg"} alt='message' width={200} height={100} />
           <p className='text-4xl'>Cliente satisfechos</p>
         </Motion>
 
-        <Motion className='w-[60%]' initial={{x:400}} whileInView={{x:0}} viewPort={{once:true}} transition={{duration:.7}}>
+        <Motion className='w-[60%]' initial={{x:400}} whileInView={{x:0}} viewport={{once:true}} transition={{duration:.7}}>
         <Swiper
       modules={[Navigation,Autoplay]}
       className='flex justify-center items-center w-full border-solid border-[1px] h-[300px]'

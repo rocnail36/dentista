@@ -1,18 +1,17 @@
 "use client"
 
 import React from 'react'
-import {  motion,  MotionConfigProps,LayoutProps,AnimationProps, TargetAndTransition, VariantLabels,ViewportOptions} from "framer-motion"
+import {  motion,  MotionConfigProps,LayoutProps,AnimationProps, TargetAndTransition, HTMLMotionProps, } from "framer-motion"
 
-interface Props extends  MotionConfigProps, LayoutProps,AnimationProps{
- whileInView?: VariantLabels | TargetAndTransition | undefined
- className?: string  | undefined,
- viewPort?: ViewportOptions | undefined
+interface Props extends HTMLMotionProps<"div">{
+
 }
 
 
 
 
-const Motion = ({children,transition,initial,animate,className,whileInView,viewPort}:Props) => {
+
+const Motion = ({children,transition,initial,animate,className,whileInView,viewport}:Props) => {
   return (
     <motion.div
     initial={initial}
@@ -20,7 +19,7 @@ const Motion = ({children,transition,initial,animate,className,whileInView,viewP
     transition={transition}
     className={className}
     whileInView={whileInView}
-    viewport={viewPort}
+    viewport={viewport}
   > 
   {children}
   </motion.div>
