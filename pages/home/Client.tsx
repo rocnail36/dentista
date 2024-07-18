@@ -15,7 +15,7 @@ const Client = () => {
 
         <Motion className='w-[30%]  flex gap-8 items-center' initial={{x:-300}} whileInView={{x:0}} transition={{duration:.7}} viewport={{once:true}}>
           <Image  src={"/message.svg"} alt='message' width={200} height={100} />
-          <p className='text-4xl'>Cliente satisfechos</p>
+          <p className='text-4xl'>Clientes satisfechos</p>
         </Motion>
 
         <Motion className='w-[60%]' initial={{x:400}} whileInView={{x:0}} viewport={{once:true}} transition={{duration:.7}}>
