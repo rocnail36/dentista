@@ -1,17 +1,16 @@
 "use client"
 
 import React from 'react'
-import {  motion,  VariantLabels,MakeCustomValueType,TargetProperties, Transition$1,TargetAndTransition, ViewportOptions} from "framer-motion"
+import {  motion,  MotionConfigProps,LayoutProps,AnimationProps, TargetAndTransition, VariantLabels,ViewportOptions} from "framer-motion"
 
-type Props = {
-    children: React.ReactNode,
-    transition: Transition$1 | undefined
-    initial: boolean |  VariantLabels | undefined
-    animate?: boolean |  VariantLabels | undefined
-    className?: string
-    whileInView?: VariantLabels | TargetAndTransition,
-    viewPort?: ViewportOptions | undefined
+interface Props extends  MotionConfigProps, LayoutProps,AnimationProps{
+ whileInView?: VariantLabels | TargetAndTransition | undefined
+ className?: string  | undefined,
+ viewPort?: ViewportOptions | undefined
 }
+
+
+
 
 const Motion = ({children,transition,initial,animate,className,whileInView,viewPort}:Props) => {
   return (
