@@ -32,7 +32,7 @@ const Client = () => {
     >
       <SwiperSlide className=''>
       <div className='flex items-center justify-center flex-col h-[100%] bg-white px-16'>
-      <p className='mb-12 font-semibold italic text-gray-600'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut sapien justo. Aliquam pretium quis dui et ullamcorper Sed sed .  quis dignissim erat convallis. Quisque commodo ipsum a dictum tincidunt. Morbi ut dictum lorem. Duis cursus"</p>
+      <p className='mb-12 font-semibold italic text-gray-600'>&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut sapien justo. Aliquam pretium quis dui et ullamcorper Sed sed .  quis dignissim erat convallis. Quisque commodo ipsum a dictum tincidunt. Morbi ut dictum lorem. Duis cursus&quot;</p>
       <h4 className='font-bold text-xl text-gray-800'>Cristen Lorems</h4>
       <span className='text-sm font-semibold'>costumer</span>
       </div>
@@ -40,7 +40,7 @@ const Client = () => {
 
       <SwiperSlide className=''>
       <div className='flex items-center justify-center flex-col h-[100%] bg-white px-16'>
-      <p className='mb-12 font-semibold italic text-gray-600'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut sapien justo. Aliquam pretium quis dui et ullamcorper Sed sed .  quis dignissim erat convallis. Quisque commodo ipsum a dictum tincidunt. Morbi ut dictum lorem. Duis cursus"</p>
+      <p className='mb-12 font-semibold italic text-gray-600'>&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut sapien justo. Aliquam pretium quis dui et ullamcorper Sed sed .  quis dignissim erat convallis. Quisque commodo ipsum a dictum tincidunt. Morbi ut dictum lorem. Duis cursus&quot;</p>
       <h4 className='font-bold text-xl text-gray-800'>Cristen Lorems</h4>
       <span className='text-sm font-semibold'>costumer</span>
       </div>
@@ -48,7 +48,7 @@ const Client = () => {
 
       <SwiperSlide className=''>
       <div className='flex items-center justify-center flex-col h-[100%] bg-white px-16'>
-      <p className='mb-12 font-semibold italic text-gray-600'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut sapien justo. Aliquam pretium quis dui et ullamcorper Sed sed .  quis dignissim erat convallis. Quisque commodo ipsum a dictum tincidunt. Morbi ut dictum lorem. Duis cursus"</p>
+      <p className='mb-12 font-semibold italic text-gray-600'>&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut sapien justo. Aliquam pretium quis dui et ullamcorper Sed sed .  quis dignissim erat convallis. Quisque commodo ipsum a dictum tincidunt. Morbi ut dictum lorem. Duis cursus&quot;</p>
       <h4 className='font-bold text-xl text-gray-800'>Cristen Lorems</h4>
       <span className='text-sm font-semibold'>costumer</span>
       </div>
